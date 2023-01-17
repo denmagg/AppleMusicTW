@@ -12,6 +12,7 @@ final class MainTableViewCell: UITableViewCell {
     static let reuseId = "MainTableViewCell"
     
     //MARK: private properties
+    
     private let title: UILabel = {
         let nameLabel = UILabel()
         nameLabel.font = .systemFont(ofSize: 22)
@@ -67,6 +68,7 @@ final class MainTableViewCell: UITableViewCell {
     }
     
     //MARK: init helpers
+    
     private func setupSubviews() {
         [verticalStack, albumImageView].forEach { subview in contentView.addSubview(subview) }
         albumImageView.addSubview(activityIndicatior)
@@ -90,6 +92,7 @@ final class MainTableViewCell: UITableViewCell {
     }
     
     //MARK: cell configure methods
+    
     func configure(with data: Album) {
         title.text = data.title
         subtitle.text = data.subtitle

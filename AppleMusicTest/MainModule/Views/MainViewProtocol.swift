@@ -12,3 +12,4 @@ protocol MainViewProtocol: AnyObject {
     func showAlert(title: String, message: String)
     func showAlbumEditingMenu(album: Album)
 }
+

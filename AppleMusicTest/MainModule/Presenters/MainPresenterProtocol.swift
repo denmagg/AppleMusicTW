@@ -18,3 +18,4 @@ protocol MainPresenterProtocol: AnyObject {
     func didTapHideAlbum(at indexPath: IndexPath)
     func didTapEditAlbum(at indexPath: IndexPath)
 }
+

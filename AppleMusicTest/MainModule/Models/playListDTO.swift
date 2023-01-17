@@ -16,3 +16,4 @@ struct Album: Codable {
     let subtitle: String
     let image: String
 }
+

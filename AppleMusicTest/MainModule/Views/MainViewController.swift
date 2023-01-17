@@ -92,6 +92,7 @@ extension MainViewController: UITableViewDataSource {
 //MARK: UITableViewDelegate
 
 extension MainViewController: UITableViewDelegate {
+    
     func tableView(_ tableView: UITableView, contextMenuConfigurationForRowAt indexPath: IndexPath, point: CGPoint) -> UIContextMenuConfiguration? {
         let config = UIContextMenuConfiguration(
             identifier: nil,
@@ -122,6 +123,7 @@ extension MainViewController: UISearchResultsUpdating {
 //MARK: MainViewProtocol
 
 extension MainViewController: MainViewProtocol {
+    
     func updateTableView() {
         tableView.reloadData()
     }
@@ -158,3 +160,4 @@ extension MainViewController: MainViewProtocol {
     }
     
 }
+
