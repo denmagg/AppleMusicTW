@@ -22,6 +22,7 @@ final class MainViewController: UIViewController, UITextFieldDelegate {
     }()
 
     //MARK: Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
@@ -32,6 +33,7 @@ final class MainViewController: UIViewController, UITextFieldDelegate {
     }
     
     //MARK: LC helpers
+    
     private func configureView() {
         view.backgroundColor = .systemBackground
         navigationItem.title = "Плейлисты"
